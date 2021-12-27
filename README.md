@@ -4,7 +4,6 @@
 
 ```
 ts-node index.ts
-
 ```
 or
 
@@ -12,6 +11,13 @@ or
 tsc index.ts
 node index.js
 ```
+
+### To run a html with ts. eg:  <script type="module" src="app.tsx"></script>
+`npm install -g parcel-bundler`
+parcel-bundler is a tool to help us run Typescript in the browser.
+
+`parcel index.html`
+
 
 **Type:** an easy way to refer to the different properties + functions that a value has
 
